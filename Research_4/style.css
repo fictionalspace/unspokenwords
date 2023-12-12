@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+  }
+  
+  .visual-novel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .scene-container {
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: left;
+  }
+  
+  .choices-container {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: left;
+  }
+  
+  button {
+    display: block;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  img {
+    height: auto;
+    width: 75%;
+  }
+  .background {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+  }
+  .game-container {
+    display: none;
+  }
+  .inner_container
+  {
+    display: flex;
+    width: 100%;
+    height: 125%;
+  }
+  .button_container
+  {
+    display: flex;
+    width: 100%;
+    height: 125%;
+  }
